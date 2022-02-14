@@ -166,5 +166,14 @@ main img {
         }
     
     }
+    .main{
+        padding:50px 0 50px 0;
+    }
+    .alinear{
+        margin-left: 20px;
+    }
+    .sinSubrayado{
+        text-decoration: none;
+    }
 
 
