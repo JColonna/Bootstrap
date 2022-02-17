@@ -1,0 +1,95 @@
+@import"botones";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    color: black;
+}
+body{
+    max-height: 100vh;
+}
+
+.logo{
+    height: 60px;
+    margin: 20px 0 0 20px;
+}
+.contenidoHeader{    
+        height: 100%;
+        min-height: 600px;
+        display: flex;
+        background-image: url(../img/portada.jpg); 
+        background-repeat:no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        background-position:center;      
+        
+    }
+.alinea{
+    
+    padding-top: 350px;
+    margin: 5px;
+
+   
+    
+}
+
+
+
+main{
+    background-color: khaki;
+    .tituloMain{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 50px;
+        margin-bottom: 35px;
+        
+    }
+    .flexMain{
+        display: flex;
+        
+        justify-content: space-around;}
+    img {
+            width: 250px;
+            height: 200px;}
+    .main{
+        padding:50px 0 50px 0;
+        }
+    
+}
+
+section {
+    .flexSection{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color:khaki;
+    padding:0 200px 0 200px;
+}
+    .segundoSection{
+        margin-top: 40px;
+        height: 250px;
+        margin-bottom: 10px;
+}
+
+}
+
+.footer {
+    height: 150px;
+    background-color: brown;
+    text-align: end;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.alinear{
+    margin-left: 20px;
+    display: flex;
+}
+.sinSubrayado{
+    text-decoration: none;
+}
+
+
+
