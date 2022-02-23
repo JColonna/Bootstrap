@@ -1,5 +1,5 @@
-@import"botones";
 
+@import"colores";
 
 *{
     margin: 0;
@@ -7,8 +7,8 @@
     text-decoration: none; 
     color: black;
 }
-body{
-    max-height: 100vh;
+body a{
+    color: $colorCinco;
 }
 
 .logo{
@@ -34,6 +34,7 @@ body{
    
     
 }
+
 
 
 
@@ -79,17 +80,18 @@ section {
     height: 150px;
     background-color: brown;
     text-align: end;
-    padding-top: 100px;
     padding-right: 50px;
 }
 
 .alinear{
     margin-left: 20px;
-    display: flex;
+    
 }
 .sinSubrayado{
     text-decoration: none;
 }
+@import"botones";
+@import"sassII";
 
 
 

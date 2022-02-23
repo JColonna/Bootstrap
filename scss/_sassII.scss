@@ -1,0 +1,62 @@
+/** Entrega SASS II**/ 
+@import"colores";
+@import"variables";
+
+
+body{
+    width: 100%;
+    max-height: $alto;
+    background-color:$colorTres;
+   
+}
+
+p{
+    @if $var1 == $ancho {
+        color: $colorUno;}
+        @else if $var1 > $ancho {
+            color: $colorDos;
+        }
+        @else {
+            color: $colorTres;
+        }
+
+
+    }
+
+@each $lista in footer{
+        #{$lista} {
+            background-color: $colorCuatro;
+        }
+
+    }
+
+/* Mapas*/
+
+$redes: (
+    facebook: rgb(2, 2, 87),
+    instagram: rgb(204, 8, 41),
+    whatsapp: rgb(14, 124, 14),
+);
+
+@each $nombres, $color in $redes {
+    .boton-#{$nombres} {
+        background-color: $color;
+        border: $color;
+        
+        
+    }
+}
+
+/* Mixin*/
+
+
+
+
+
+
+
+
+
+
+
+

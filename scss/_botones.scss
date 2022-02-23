@@ -20,8 +20,39 @@
     border: 10px;
 }
 
-#botonc{
-    height: 40px;
-    width: 100px;
-    margin: 2px 0 0 100px;
+/*Extend*/
+
+.botonFormulario {
+
+    width:150px;
+    height:40px;
+    background-color: rgb(33, 92, 126);
+    border-radius: 15%;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 8%;
+
+}
+
+.botonVolver {
+    @extend .botonFormulario;
+    width:100%;
+    border-radius: 5%;
+    margin-left: 9%;
+    text-decoration: none;
+}
+@mixin estilo($anchoo, $altura, $margen,$padding, $subrayado, $color,){
+    height: $altura;
+    width: $anchoo;
+    margin: $margen;
+    padding: $padding;
+    text-decoration: $subrayado;
+    color: $color;
+}
+.botonC{
+    @include estilo(200px, 100px, 10px 0 0 0, 30px 0 0 0, none, black)
+}
+
+.botonD{
+    @include estilo(200px, 100px, 10px 0 0 0, 30px 0 0 0, none, black)
 }
