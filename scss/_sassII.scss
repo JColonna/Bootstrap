@@ -40,7 +40,7 @@ $redes: (
 
 @each $nombres, $color in $redes {
     .boton-#{$nombres} {
-        background-color: $color;
+        color: $color;
         border: $color;
         
         
