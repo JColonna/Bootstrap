@@ -9,6 +9,9 @@ body{
     background-color:$colorTres;
    
 }
+h1{
+    color: $colorSeis;
+}
 
 p{
     @if $var1 == $ancho {
@@ -47,7 +50,7 @@ $redes: (
     }
 }
 
-/* Mixin*/
+
 
 
 

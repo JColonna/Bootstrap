@@ -30,7 +30,7 @@
     border-radius: 15%;
     color: whitesmoke;
     font-size: 20px;
-    margin-left: 8%;
+    margin-left: 15%;
 
 }
 
@@ -38,8 +38,9 @@
     @extend .botonFormulario;
     width:100%;
     border-radius: 5%;
-    margin-left: 9%;
+    margin-left: 16%;
     text-decoration: none;
+    padding: 0.6%;
 }
 @mixin estilo($anchoo, $altura, $margen,$padding, $subrayado, $color,){
     height: $altura;

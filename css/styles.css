@@ -107,14 +107,15 @@ section .segundoSection {
   border-radius: 15%;
   color: whitesmoke;
   font-size: 20px;
-  margin-left: 8%;
+  margin-left: 15%;
 }
 
 .botonVolver {
   width: 100%;
   border-radius: 5%;
-  margin-left: 9%;
+  margin-left: 16%;
   text-decoration: none;
+  padding: 0.6%;
 }
 
 .botonC {
@@ -142,6 +143,10 @@ body {
   background-color: khaki;
 }
 
+h1 {
+  color: white;
+}
+
 p {
   color: green;
 }
@@ -166,6 +171,28 @@ footer {
   border: #0e7c0e;
 }
 
-/* Mixin*/
+.flexContacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+iframe {
+  margin-right: 10%;
+}
+
+form {
+  margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+  .flexContacto {
+    display: block;
+  }
+
+  iframe {
+    margin: 5% 0% 0% 5%;
+    width: 90%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

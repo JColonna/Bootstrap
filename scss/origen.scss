@@ -93,5 +93,27 @@ section {
 @import"botones";
 @import"sassII";
 
+.flexContacto{
+    display:flex;
+    justify-content: space-around;
+}
+iframe{
+    margin-right:10%;
+}
+form{
+    margin-left: 10%;
+}
+
+@media (max-width: 768px){
+    .flexContacto{
+        display: block;
+
+    }
+    iframe{
+        margin:5% 0% 0% 5%;
+        width: 90%;
+        
+    }
+}
 
 
